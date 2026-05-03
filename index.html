@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Construction Portfolio Website </title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,700&family=Barlow+Condensed:wght@600;700;800&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- ===== TOP BAR ===== -->
+  <div class="topbar">
+    <div class="container topbar__inner">
+      <div class="topbar__left">
+        <span><i class="fas fa-phone"></i> +(02) 9111.7467.354</span>
+        <span><i class="fas fa-envelope"></i> info@gmail.com</span>
+      </div>
+      <div class="topbar__right">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== HEADER / NAV ===== -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#" class="logo">
+        <img style="width: 100px; height: 40px;"src="https://i.postimg.cc/xCcfZdC0/logo-removebg-preview.png">
+        <!-- <span class="logo__icon"><i class="fas fa-industry"></i></span>
+        <span class="logo__text">indusza</span> -->
+      </a>
+      <nav class="nav" id="nav">
+        <ul class="nav__list">
+          <li><a href="#" class="nav__link active">Home</a></li>
+          <li><a href="#about" class="nav__link">Company</a></li>
+          <li><a href="#services" class="nav__link">Shop</a></li>
+          <li><a href="#projects" class="nav__link">Projects</a></li>
+          <li><a href="#news" class="nav__link">Blog</a></li>
+          <li><a href="#contact" class="nav__link">Contact</a></li>
+        </ul>
+      </nav><!--  -->
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero">
+    <div class="hero__bg"></div>
+    <div class="container hero__content">
+      <p class="hero__sub">We Build Your Dream</p>
+      <h1 class="hero__title">Build Everything<br />With Passion.</h1>
+      <div class="hero__btns">
+        <a href="#about" class="btn btn--red">Get Started</a>
+        <a href="#services" class="btn btn--outline">Our Services</a>
+      </div>
+    </div>
+    <div class="hero__indicators">
+      <button class="hero__dot active"></button>
+      <button class="hero__dot"></button>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="about section" id="about">
+    <div class="container about__grid">
+      <!-- Left image stack -->
+      <div class="about__images">
+        <div class="about__img-main">
+          <img src="https://fliphtml5.com/blog/wp-content/uploads/2025/04/construction-portfolio-template.webp?w=500&q=80" alt="Worker" />
+        </div>
+        <div class="about__badge">
+          <span class="about__badge-num">25+</span>
+          <span class="about__badge-text">Years of<br />Experience</span>
+        </div>
+      </div>
+      <!-- Right content -->
+      <div class="about__content">
+        <p class="section-label"><span class="label-line"></span>ABOUT OUR COMPANY</p>
+        <h2 class="section-title">We Provide top<br />industrial Services.</h2>
+        <div class="about__features">
+          <div class="about__feature">
+            <div class="about__feature-icon"><i class="fas fa-chart-line"></i></div>
+            <div>
+              <h4>Research &amp; Analysis</h4>
+              <p>We deliver accurate industry research and analysis to optimise your production goals.</p>
+            </div>
+          </div>
+          <div class="about__feature">
+            <div class="about__feature-icon"><i class="fas fa-gem"></i></div>
+            <div>
+              <h4>Quality Product</h4>
+              <p>Our commitment to quality ensures every product meets the highest industrial standards.</p>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn btn--red">Learn More</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES ===== -->
+  <section class="services section" id="services">
+    <div class="container">
+      <p class="section-label center"><span class="label-line"></span>OUR SERVICES</p>
+      <h2 class="section-title center">We Provide Best<br />Services</h2>
+      <div class="services__grid">
+
+        <div class="service-card">
+          <div class="service-card__icon"><i class="fas fa-flask"></i></div>
+          <h3>Chemical Research</h3>
+          <p>Pioneering chemical solutions, improvements, and optimisation of the global industry standards.</p>
+          <a href="#" class="btn btn--red btn--sm">Read More</a>
+        </div>
+
+        <div class="service-card">
+          <div class="service-card__icon"><i class="fas fa-hard-hat"></i></div>
+          <h3>Construct Engineer</h3>
+          <p>Expert construction engineers committed to outstanding on-site planning, building, and execution.</p>
+          <a href="#" class="btn btn--red btn--sm">Read More</a>
+        </div>
+
+        <div class="service-card">
+          <div class="service-card__icon"><i class="fas fa-oil-can"></i></div>
+          <h3>Petroleum Engineer</h3>
+          <p>Advanced petroleum engineering services covering exploration, extraction, and refinement worldwide.</p>
+          <a href="#" class="btn btn--red btn--sm">Read More</a>
+        </div>
+
+        <div class="service-card">
+          <div class="service-card__icon"><i class="fas fa-cogs"></i></div>
+          <h3>Mechanical Engineer</h3>
+          <p>Comprehensive mechanical engineering with precision design, testing, and performance optimisation.</p>
+          <a href="#" class="btn btn--red btn--sm">Read More</a>
+        </div>
+
+        <div class="service-card">
+          <div class="service-card__icon"><i class="fas fa-fire"></i></div>
+          <h3>Oil &amp; gas Engineer</h3>
+          <p>Specialised oil and gas services with safety-first approaches for all extraction environments.</p>
+          <a href="#" class="btn btn--red btn--sm">Read More</a>
+        </div>
+
+        <div class="service-card">
+          <div class="service-card__icon"><i class="fas fa-industry"></i></div>
+          <h3>Auto Manufacture</h3>
+          <p>State-of-the-art automotive manufacturing with strict quality control and efficiency workflows.</p>
+          <a href="#" class="btn btn--red btn--sm">Read More</a>
+        </div>
+
+      </div>
+      <div class="services__cta">
+        <a href="#" class="btn btn--outline-dark">Explore All Services</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== STATS BANNER ===== -->
+  <section class="stats">
+    <div class="stats__left">
+      <p class="stats__tagline">We believe in building long lasting our business relationships.</p>
+      <div class="stats__contact">
+        <p><i class="fas fa-phone"></i> +(02) 9111.7467.354</p>
+        <p><i class="fas fa-envelope"></i> info@gmail.com</p>
+      </div>
+    </div>
+    <div class="stats__right">
+      <div class="stat-item">
+        <span class="stat-num">99</span>
+        <span class="stat-label">Skilled<br />Engineers</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-num">117</span>
+        <span class="stat-label">Projects<br />Complete</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-num">69</span>
+        <span class="stat-label">Machines<br />Running</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-num">122</span>
+        <span class="stat-label">Team/Staff</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TEAM ===== -->
+  <section class="team section" id="team">
+    <div class="container">
+      <div class="team__header">
+        <div>
+          <p class="section-label"><span class="label-line"></span>TEAM OF PROFESSIONALS</p>
+          <h2 class="section-title">Expert Contractors</h2>
+        </div>
+        <a href="#" class="btn btn--red">Know More</a>
+      </div>
+      <div class="team__grid">
+
+        <div class="team-card">
+          <div class="team-card__img">
+            <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&q=80" alt="William Steve" />
+            <div class="team-card__overlay">
+              <div class="team-card__socials">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="team-card__info">
+            <h4>William Steve</h4>
+            <p>Electrician</p>
+          </div>
+        </div>
+
+        <div class="team-card">
+          <div class="team-card__img">
+            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=80" alt="Guerrero Flores" />
+            <div class="team-card__overlay">
+              <div class="team-card__socials">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="team-card__info">
+            <h4>Guerrero Flores</h4>
+            <p>Plumber</p>
+          </div>
+        </div>
+
+        <div class="team-card">
+          <div class="team-card__img">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80" alt="Luxury Boyett" />
+            <div class="team-card__overlay">
+              <div class="team-card__socials">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="team-card__info">
+            <h4>Luxury Boyett</h4>
+            <p>Jalena Bojack</p>
+          </div>
+        </div>
+
+        <div class="team-card">
+          <div class="team-card__img">
+            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&q=80" alt="William Steve" />
+            <div class="team-card__overlay">
+              <div class="team-card__socials">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="team-card__info">
+            <h4>William Steve</h4>
+            <p>Mechanical Engineer</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section class="projects section" id="projects">
+    <div class="container">
+      <p class="section-label center"><span class="label-line"></span>OUR RECENT WORK</p>
+      <h2 class="section-title center">Recently Completed<br />Projects</h2>
+    </div>
+    <div class="projects__gallery">
+      <div class="project-item">
+        <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=600&q=80" alt="Project 1" />
+        <div class="project-item__overlay">
+          <h4>Industrial Facility</h4>
+          <p>Construction</p>
+        </div>
+      </div>
+      <div class="project-item">
+        <img src="https://images.unsplash.com/photo-1565891741441-64926e441838?w=600&q=80" alt="Project 2" />
+        <div class="project-item__overlay">
+          <h4>Welding Works</h4>
+          <p>Manufacturing</p>
+        </div>
+      </div>
+      <div class="project-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsF0HhAvflDZFQ9y5kS3SvH0eC7vvbkOq8KA&s?w=600&q=80" alt="Project 3" />
+        <div class="project-item__overlay">
+          <h4>Oil Pipeline</h4>
+          <p>Petroleum</p>
+        </div>
+      </div>
+      <div class="project-item">
+        <img src="https://images.unsplash.com/photo-1530124566582-a618bc2615dc?w=600&q=80" alt="Project 4" />
+        <div class="project-item__overlay">
+          <h4>Heavy Machinery</h4>
+          <p>Mechanical</p>
+        </div>
+      </div>
+    </div>
+    <div class="projects__dots container">
+      <button class="proj-dot active"></button>
+      <button class="proj-dot"></button>
+      <button class="proj-dot"></button>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="testimonials">
+    <div class="container">
+      <p class="section-label center light"><span class="label-line light"></span>TESTIMONIALS</p>
+      <h2 class="section-title center light">Happy Client Says<br />About Us</h2>
+      <div class="testimonials__grid">
+
+        <div class="testi-card">
+          <div class="testi-card__header">
+            <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=100&q=80" alt="Mike Harrison" />
+            <div>
+              <h4>Mike Harrison</h4>
+              <div class="testi-stars">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <p>The rapid delivery and excellent results with their agile and risk-free approach makes them an outstanding choice for all industrial service requirements.</p>
+          <div class="testi-quote"><i class="fas fa-quote-right"></i></div>
+        </div>
+
+        <div class="testi-card">
+          <div class="testi-card__header">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&q=80" alt="Edward Howells" />
+            <div>
+              <h4>Edward Howells</h4>
+              <div class="testi-stars">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <p>The team consistently exceeded our expectations and delivered all project milestones on time with exceptional quality and professional expertise.</p>
+          <div class="testi-quote"><i class="fas fa-quote-right"></i></div>
+        </div>
+
+      </div>
+      <div class="testimonials__nav">
+        <button class="testi-nav testi-nav--prev"><i class="fas fa-chevron-left"></i></button>
+        <button class="testi-nav testi-nav--next"><i class="fas fa-chevron-right"></i></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== NEWS ===== -->
+  <section class="news section" id="news">
+    <div class="container">
+      <p class="section-label center"><span class="label-line"></span>NEWS AND UPDATES</p>
+      <h2 class="section-title center">Let's Checkout Our<br />All Current News.</h2>
+      <div class="news__grid">
+
+        <article class="news-card">
+          <div class="news-card__img">
+            <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=500&q=80" alt="News 1" />
+          </div>
+          <div class="news-card__body">
+            <div class="news-card__meta">
+              <span><i class="fas fa-user"></i> Admin</span>
+              <span><i class="fas fa-comments"></i> 5 Comments</span>
+            </div>
+            <h4>The future of factories in coming years develops strongly</h4>
+            <p>Technological innovation is reshaping factories around the world at an unprecedented rate.</p>
+            <a href="#" class="btn btn--red btn--sm">Read More</a>
+          </div>
+        </article>
+
+        <article class="news-card">
+          <div class="news-card__img">
+            <img src="https://images.unsplash.com/photo-1565891741441-64926e441838?w=500&q=80" alt="News 2" />
+          </div>
+          <div class="news-card__body">
+            <div class="news-card__meta">
+              <span><i class="fas fa-user"></i> Admin</span>
+              <span><i class="fas fa-comments"></i> 3 Comments</span>
+            </div>
+            <h4>Cargo free through supply chain visibility</h4>
+            <p>Modern supply chains are becoming more transparent and data-driven than ever before.</p>
+            <a href="#" class="btn btn--red btn--sm">Read More</a>
+          </div>
+        </article>
+
+        <article class="news-card">
+          <div class="news-card__img">
+            <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=500&q=80" alt="News 3" />
+          </div>
+          <div class="news-card__body">
+            <div class="news-card__meta">
+              <span><i class="fas fa-user"></i> Admin</span>
+              <span><i class="fas fa-comments"></i> 7 Comments</span>
+            </div>
+            <h4>Saying what doesn't exist yet, pull it to your strength</h4>
+            <p>Innovation in engineering is about envisioning solutions before the tools to build them exist.</p>
+            <a href="#" class="btn btn--red btn--sm">Read More</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FEATURE BOXES ===== -->
+  <section class="features-bar">
+    <div class="container features-bar__grid">
+      <div class="feat-box">
+        <div class="feat-box__icon red"><i class="fas fa-lightbulb"></i></div>
+        <div>
+          <h4>Creative Ideas</h4>
+          <p>info@rocagroup.com</p>
+        </div>
+      </div>
+      <div class="feat-box">
+        <div class="feat-box__icon dark"><i class="fas fa-headset"></i></div>
+        <div>
+          <h4>24/7 Support</h4>
+          <p>+(02) 9111.7467.354</p>
+        </div>
+      </div>
+      <div class="feat-box">
+        <div class="feat-box__icon red"><i class="fas fa-shield-alt"></i></div>
+        <div>
+          <h4>Super Safety</h4>
+          <p>Top facilities assurance</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" id="contact">
+    <div class="container footer__grid">
+
+      <div class="footer__col">
+        <a href="#" class="logo logo--light">
+        <img 
+  style="width:100px; height:40px; filter: brightness(0) invert(1);" 
+  src="https://i.postimg.cc/xCcfZdC0/logo-removebg-preview.png">
+          <!-- <span class="logo__icon"><i class="fas fa-industry"></i></span>
+          <span class="logo__text">indusza</span> -->
+        </a>
+        <p class="footer__about">We are dedicated to delivering premium industrial services with unmatched precision and commitment.</p>
+        <div class="footer__stars">
+          <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+        </div>
+      </div>
+
+      <div class="footer__col">
+        <h4 class="footer__heading">Services</h4>
+        <ul class="footer__links">
+          <li><a href="#">Chemical Research</a></li>
+          <li><a href="#">Construct Engineer</a></li>
+          <li><a href="#">Petroleum Engineer</a></li>
+          <li><a href="#">Mechanical Engineer</a></li>
+          <li><a href="#">Oil &amp; Gas Engineer</a></li>
+          <li><a href="#">Auto Manufacture</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <h4 class="footer__heading">Company Links</h4>
+        <ul class="footer__links">
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Our Team</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Testimonials</a></li>
+          <li><a href="#">News &amp; Blog</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <h4 class="footer__heading">Newsletter</h4>
+        <p>Subscribe to our newsletter to get the latest industrial news and updates.</p>
+        <div class="footer__newsletter">
+          <input type="email" placeholder="Your email address" />
+          <button class="btn btn--red">Subscribe</button>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer__bottom">
+      <div class="container footer__bottom-inner">
+        <div class="footer__contact-row">
+          <span><i class="fas fa-phone"></i> Call: +(02) 9111.7467.354</span>
+          <span><i class="fas fa-envelope"></i> Email: info@gmail.com</span>
+          <span><i class="fas fa-map-marker-alt"></i> Address: 123 Industrial Way, NY</span>
+        </div>
+        <p class="footer__copy">&copy; 2026 Roca Group. All Rights Reserved Developed by Zannatul.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
